@@ -1,0 +1,29 @@
+#dd_data ul {
+	margin:0;
+	padding:0;
+}
+
+.legend ~ .green:after{
+	content: " Loaded!";
+	color:green;
+	font-weight: bold;
+}
+.legend ~ .red:after{
+	content: " Not Loaded";
+	color:red;
+	font-weight: bold;
+}
+
+/*DEFAULT BEHAVIOUR*/
+li span:after{
+	content: " Not Loaded";
+	color:red;
+	font-weight: bold;
+}
+
+
+.mycommon-css:after {
+	color: green;
+	font-weight: bold;
+	content: " Loaded!";
+}

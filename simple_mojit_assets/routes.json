@@ -1,0 +1,19 @@
+[{
+    "settings": ["master"],
+    
+    "/": {
+        "verb": ["get"],
+        "path": "/",
+        "call": "shakerframe.index"
+    },
+    "index": {
+        "verb": ["get"],
+        "path": "/index",
+        "call": "shakerframe.index"
+    },
+    "foo": {
+        "verb": ["get"],
+        "path": "/foo",
+        "call": "shakerframe.foo"
+    }
+}]

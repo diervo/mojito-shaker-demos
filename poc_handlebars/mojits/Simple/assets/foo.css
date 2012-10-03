@@ -1,0 +1,5 @@
+.foo-css:after {
+	color: green;
+	font-weight: bold;
+	content: " Loaded!";
+}

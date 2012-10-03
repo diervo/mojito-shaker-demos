@@ -1,0 +1,21 @@
+[
+    {
+        "settings": [ "master" ],
+        "shaker":{
+            "task": "raw",
+            "minify": false
+        },
+        "specs": {
+            "shakerframe": {
+                "type": "ShakerHTMLFrameMojit",
+                "config": {
+                    "deploy": true,
+                    "title": "Shaker Demo",
+                    "child": {
+                        "type": "Simple"
+                    }
+                }
+            }
+        }
+    }
+]

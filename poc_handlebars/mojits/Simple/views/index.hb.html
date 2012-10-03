@@ -1,0 +1,31 @@
+<div id="{{mojit_view_id}}">
+	<h2>Shaker: simple assets example</h2>
+	<p><a href="/index">Call index action</a></p>
+	<p><a href="/foo">Call foo action</a></p>
+    <dl>
+        <dt>status</dt>
+        <dd id="dd_status">{{status}}</dd>
+		<dt class="legend">Legend:</dt>        
+			<dd class="green"></dd>
+			<dd class="red"></dd>
+        <dt>Loaded CSS:</dt>
+        <dd id="dd_data">
+        	<ul>
+        		<li>
+					<span class="mycommon-css">myappcommon.css:</span>
+				</li>
+				<li>
+					<span class="base-css">base.css:</span>
+				</li>
+				<li>
+					<span class="index-css">index.css:</span>
+				</li>
+				<li>
+					<span class="foo-css">foo.css:</span>
+				</li>
+
+        	</ul>
+        </dd>
+    </dl>
+    <a id="update" href="#">Call update on the controller!</a>
+</div>
