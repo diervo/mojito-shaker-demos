@@ -8,7 +8,6 @@ YUI._mojito._cache.shaker.meta =
 				"Simple": {
 					"foo": {
 						"js": [
-							"/static/Simple/models/foo.common.js",
 							"/static/Simple/controller.common.js",
 							"/static/Simple/binders/foo.js"
 						],
@@ -19,7 +18,6 @@ YUI._mojito._cache.shaker.meta =
 					},
 					"index": {
 						"js": [
-							"/static/Simple/models/foo.common.js",
 							"/static/Simple/controller.common.js",
 							"/static/Simple/binders/index.js"
 						],
@@ -27,15 +25,26 @@ YUI._mojito._cache.shaker.meta =
 							"/static/Simple/assets/base.css",
 							"/static/Simple/assets/index.css"
 						]
+					},
+					"other": {
+						"js": [
+							"/static/Simple/controller.common.js",
+							"/static/Simple/binders/other.js"
+						],
+						"css": [
+							"/static/Simple/assets/base.css"
+						]
+					},
+					"update": {
+						"js": [
+							"/static/Simple/controller.common.js"
+						],
+						"css": [
+							"/static/Simple/assets/base.css",
+							"/static/Simple/assets/update.css"
+						]
 					}
 				},
-				"ShakerHTMLFrameMojit": {
-					"index": {
-						"js": [],
-						"css": []
-					}
-				},
-				"TunnelProxy": {},
 				"HTMLFrameMojit": {
 					"index": {
 						"js": [],
@@ -47,10 +56,17 @@ YUI._mojito._cache.shaker.meta =
 						"js": [],
 						"css": []
 					}
+				},
+				"TunnelProxy": {},
+				"ShakerHTMLFrameMojit": {
+					"index": {
+						"js": [],
+						"css": []
+					}
 				}
 			},
 			"app": [
-				"/static/simple_mojit_assets/assets/myappcommon.css"
+				"/static/poc_handlebars/assets/myappcommon.css"
 			],
 			"routesBundle": {}
 		}
@@ -63,6 +79,7 @@ YUI._mojito._cache.shaker.meta =
 		"/static/mojito/addons/ac/cookie.client.js",
 		"/static/mojito/addons/ac/intl.common.js",
 		"/static/mojito/addons/ac/meta.common.js",
+		"/static/mojito/addons/ac/models.common.js",
 		"/static/mojito/addons/ac/output-adapter.common.js",
 		"/static/mojito/addons/ac/params.common.js",
 		"/static/mojito/addons/ac/partial.common.js",
@@ -78,7 +95,7 @@ YUI._mojito._cache.shaker.meta =
 		"/static/mojito/autoload/mojito-client.client.js",
 		"/static/mojito/autoload/mojito-test.common.js",
 		"/static/mojito/autoload/mojito.common.js",
-		"/static/mojito/autoload/output-handler.client.js",
+		"/static/mojito/shaker-output-handler.client.js",
 		"/static/mojito/autoload/perf.client.js",
 		"/static/mojito/autoload/resource-store-adapter.common.js",
 		"/static/mojito/autoload/rest.common.js",
