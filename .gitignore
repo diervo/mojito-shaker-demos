@@ -1,3 +1,6 @@
 node_modules
 poc_handlebars/autoload/compiled
 poc_handlebars/node_modules
+
+
+shaker01_installshaker/autoload/compiled
