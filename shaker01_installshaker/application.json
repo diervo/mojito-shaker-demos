@@ -1,0 +1,16 @@
+[
+    {
+        "settings": [ "master" ],
+        "specs": {
+            "frame": {
+                "type": "ShakerHTMLFrameMojit",
+                "config": {
+                    "title": "Shaker Demo",
+                    "child": {
+                        "type": "main"
+                    }
+                }
+            }
+        }
+    }
+]

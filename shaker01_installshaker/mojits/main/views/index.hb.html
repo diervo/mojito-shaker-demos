@@ -1,0 +1,25 @@
+<div id="{{mojit_view_id}}">
+    <h1>{{example}}</h1>
+    <div class="no-shaker">
+    	<h2>Steps:</h2>
+    	<ol>
+    		<li>Add shaker dependency into your package.json: <span>"mojito-shaker": "2.0.x" </span>.</li>
+    		<li>Run "npm install" to fetch the package from npm.</li>
+    		<li>Modify your application.json to use ShakerHTMLFrame instead of the regular HTMLFrame.</li>
+    		<li>Run Shaker: <span>"./node_modules/.bin/mojito-shake".</span></li>
+    		<li>Execute again the app normally with </span>"mojito start"</span></li>
+    		<li>If you did everything correctly you shoul not see this message but another instead.</li>
+    	</ol>
+    </div>
+    <div class="shaker" style="dispay:none">
+    	<h2>You did it!</h2>
+    	<ol>
+    		<li>As you can see, Shaker already include an asset for you on the page! (<a href="/static/shaker01_installshaker/assets/base.css">base.css</a>)</li>
+    		<li>Shaker generated some metadata in order to do this. Open this file in your browser to take a look: "./node_modules/mojito_shaker/artifacts/shaker-visualizer.html"</li>
+    		<li>The included asset is located on the assets folder at the application level.</li>
+    		<li>All the css files you put in that folder, are common to your application and will be served by Shaker.</li>
+    		<li>Normally you will put there boilerplate, resets and whatever css common to the hole application.</li>
+    		<li>So far, no coding or configuration at all... Let see what else Shaker can do for you on the next applications... :)</li>
+    	</ol>
+    </div>
+</div>

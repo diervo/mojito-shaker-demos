@@ -1,0 +1,25 @@
+body {
+	
+}
+.no-shaker {
+	display:none;
+}
+.no-shaker ol {
+	margin: 10px 50px;
+	padding :4px;
+	list-style-type: upper-roman;
+}
+
+li {
+	padding:4px;
+}
+
+.shaker {
+	display: block !important;
+}
+
+.shaker ol {
+	margin: 10px 50px;
+	padding :4px;
+	list-style: circle;
+}

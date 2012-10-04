@@ -2,18 +2,18 @@
  * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
  */
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('SimpleBinderOther', function(Y, NAME) {
+YUI.add('mainBinderIndex', function(Y, NAME) {
 
 /**
- * The SimpleBinderIndex module.
+ * The mainBinderIndex module.
  *
- * @module SimpleBinderIndex
+ * @module mainBinderIndex
  */
 
     /**
-     * Constructor for the SimpleBinderIndex class.
+     * Constructor for the mainBinderIndex class.
      *
-     * @class SimpleBinderIndex
+     * @class mainBinderIndex
      * @constructor
      */
     Y.namespace('mojito.binders')[NAME] = {

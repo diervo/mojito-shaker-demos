@@ -1,0 +1,16 @@
+{
+    "name": "shaker01_installshaker",
+    "description": "My Mojito application",
+    "version": "0.0.1",
+    "author": {
+        "name": "Diego Ferreiro",
+        "twitter": "@diervo"
+    },
+    "dependencies": {
+        "mojito": "0.4.x",
+        "mojito-shaker": "2.0.26"
+    },
+    "engines": {
+        "node": "0.6.x"
+    }
+}
