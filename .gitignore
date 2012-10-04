@@ -2,3 +2,5 @@ node_modules
 poc_handlebars/mojits/Simple/controller.common.js
 
 poc_handlebars/autoload/compiled/shaker-meta.common.js
+
+shaker01_installshaker/autoload/compiled/shaker-meta.common.js
