@@ -2,7 +2,7 @@
  * Copyright (c) 2012 Yahoo! Inc. All rights reserved.
  */
 /*jslint anon:true, sloppy:true, nomen:true*/
-YUI.add('SimpleBinderIndex', function(Y, NAME) {
+YUI.add('SimpleBinderFoo', function(Y, NAME) {
 
 /**
  * The SimpleBinderIndex module.
@@ -35,11 +35,21 @@ YUI.add('SimpleBinderIndex', function(Y, NAME) {
         bind: function(node) {
             var me = this;
             this.node = node;
-            Y.one('#update').on('click', function (e) {
-                this.mojitProxy.invoke('update', function (data, meta) {
-                    console.log('done!');
-                });
-            },this);
+            /**
+             * Example code for the bind method:
+             *
+             * node.all('dt').on('mouseenter', function(evt) {
+             *   var dd = '#dd_' + evt.target.get('text');
+             *   me.node.one(dd).addClass('sel');
+             *
+             * });
+             * node.all('dt').on('mouseleave', function(evt) {
+             *   
+             *   var dd = '#dd_' + evt.target.get('text');
+             *   me.node.one(dd).removeClass('sel');
+             *
+             * });
+             */
         }
 
     };

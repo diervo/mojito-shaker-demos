@@ -42,6 +42,9 @@ YUI.add('Simple', function(Y, NAME) {
                 status: 'Shaker is working for action: foo',
                 data: data
             });
+        },
+        update: function (ac) {
+            ac.done({data:'updated!'});
         }
 
     };
